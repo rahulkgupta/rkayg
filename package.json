@@ -1,0 +1,15 @@
+{
+  "name": "rkayg",
+  "private": true,
+  "dependencies": {
+    "metalsmith-templates": "^0.5.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.1.1",
+    "metalsmith": "^0.2.3",
+    "handlebars": "^2.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "metalsmith-collections": "^0.4.1",
+    "grunt": "^0.4.5"
+  }
+}
