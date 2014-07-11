@@ -1,26 +1,17 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="/styles/pure-min.css">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
-  </head>
-  <body>
-    <div>
-      {{> header}}
-      <h2>{{title}}</h2>
-      <article>
-          <ul>
-              {{#each collections.posts}}
-                  <li>
-                      <a href="/posts/{{this.url}}">
-                      <h3>{{this.title}}</h3>
-                      <article>{{this.subtitle}}</article>
-                    </a>
-                  </li>
-              {{/each}}
-          </ul>
-      </article>
-      {{> footer}}
-    </div>
-  </body>
-</html>
+{{> header}}
+<div class="content">
+  <h2>{{title}}</h2>
+  <article>
+      <ul>
+          {{#each collections.posts}}
+              <li>
+                  <a href="/posts/{{this.url}}">
+                  <h3>{{this.title}}</h3>
+                  <article>{{this.subtitle}}</article>
+                </a>
+              </li>
+          {{/each}}
+      </ul>
+  </article>
+</div>
+{{> footer}}
