@@ -2,8 +2,10 @@
 title: Born Lucky
 date: 2014-06-24
 template: post.html
+subtitle: How I got to where I am today.
+url: born-lucky
 ---
->This is a repost from my tumblr blog. Thought it would be good to have my new blog begin with this post.
+>This is a repost from my now defunct tumblr blog. Thought it would be good to have my new blog begin with this post.
 
 I was born in the United States, a country that has relatively great living conditions.
 

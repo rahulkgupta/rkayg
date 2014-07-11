@@ -1,4 +1,4 @@
 ---
-title: gar
 template: blog.html
+title: blog
 ---

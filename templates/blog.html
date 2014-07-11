@@ -12,8 +12,10 @@
           <ul>
               {{#each collections.posts}}
                   <li>
+                      <a href="/posts/{{this.url}}">
                       <h3>{{this.title}}</h3>
-                      <article>{{this.contents}}</article>
+                      <article>{{this.subtitle}}</article>
+                    </a>
                   </li>
               {{/each}}
           </ul>
