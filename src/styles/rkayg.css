@@ -1,0 +1,46 @@
+div {
+  max-width: 700px;
+  font-size: 24px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.content {
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.home {
+  display: inline-block;
+  margin: 0;
+  float: left;
+}
+
+.header ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.header li {
+  display: inline-block;
+}
